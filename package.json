@@ -1,18 +1,22 @@
 {
-  "name": "portfolio_website",
+  "name": "testingnetlifydeploy",
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idimitrrov/TestingNetlifyDeploy.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idimitrrov/TestingNetlifyDeploy/issues"
+  },
+  "homepage": "https://github.com/idimitrrov/TestingNetlifyDeploy#readme",
   "devDependencies": {
     "node-sass": "^6.0.1"
-  },
-  "dependencies": {
-    "sass": "^1.43.4"
-  },
-  "keywords": []
+  }
 }
